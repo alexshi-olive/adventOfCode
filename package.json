@@ -2,7 +2,6 @@
   "name": "adventofcode",
   "version": "1.0.0",
   "description": "Advent of Code 2020+",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -10,13 +9,20 @@
     "type": "git",
     "url": "git+https://github.com/alexshi-olive/adventOfCode.git"
   },
-  "author": "Alex",
+  "author": "Alex Shi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexshi-olive/adventOfCode/issues"
   },
   "homepage": "https://github.com/alexshi-olive/adventOfCode#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
     "jest": "^26.6.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   }
 }
