@@ -37,10 +37,3 @@ export const q2 = (input) => {
   .filter(item => item)
   .length;
 };
-
-export default {
-  isValidPwdQ1,
-  isValidPwdQ2,
-  q1,
-  q2,
-};

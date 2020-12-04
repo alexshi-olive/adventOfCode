@@ -31,8 +31,3 @@ export const q2 = (input) => {
     }
   }
 };
-
-export default {
-  q1,
-  q2,
-};
